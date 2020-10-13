@@ -13,6 +13,7 @@ grades = [
     62
 ]
 
+#zip devolve uma lista de tuplas
 def vector_add(v, w):
     #v = [1, 2, 3]
     #w = [4, 5, 6]
@@ -98,6 +99,7 @@ def magnitude_test():
     r=magnitude(v)
     print(r)
 
+#distancia euclidiana
 def squared_distance(v,w):
     #v=[1,2]
     #v=[3,5]
@@ -114,6 +116,7 @@ def squared_distance_test():
 def distance(v,w):
     return math.sqrt(squared_distance(v,w))
 
+#versao alternativa do calculo de distancia euclidiana usando funções já criadas
 def distance_test():
     v=[1,2]
     w=[3.5]
@@ -129,6 +132,8 @@ def distance_test2():
     print(f'u2 vs u3:{distance(u2,u3)}')
 
 def qtde_amigos_minutos_passados():
+    #primeira lista: número de amigos
+    #segunda lista: qtde de minutos passados por dia (em média)
     return{[1, 10, 50, 2, 150],[5,200,350,17,1]}
 
 def variance(v):
